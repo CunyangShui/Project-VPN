@@ -1,6 +1,6 @@
 #run as server
 all:
-	gcc -o simpletun ../simpletun.c
+	gcc -o tunneludp ../tunneludp.c
 run:
 	bash init_server.sh &
-	sudo ./simpletun -i tun0 -s 
+	sudo ./tunneludp -i tun0 -s 
