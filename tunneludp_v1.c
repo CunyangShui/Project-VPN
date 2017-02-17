@@ -1,5 +1,5 @@
 /**************************************************************************
- * udptunnel.c                                                            *
+ * udptunnel_v1.c                                                         *
  *                                                                        *
  * A simplistic, simple-minded, naive tunnelling program using tun/tap    *
  * interfaces and UDP. Handles (badly) IPv4 for tun, ARP and IPv4 for     *
